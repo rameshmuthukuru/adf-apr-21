@@ -51,7 +51,10 @@
 				"outputs": [
 					{
 						"referenceName": "outTable",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"TableName": "cars"
+						}
 					}
 				]
 			}
